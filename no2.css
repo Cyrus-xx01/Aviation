@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Classic clean style */
 body {
     margin: 0;
@@ -90,4 +91,98 @@ body {
     border: 1px solid #ccc;
     text-align: left;
   }
+=======
+/* Classic clean style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar nav a {
+    color: #ecf0f1;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+  }
+  
+  .sidebar nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .widgets {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .widget {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+  
+  .table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  .chart-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+
+  .filter-section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .filter-section label {
+    margin-right: 10px;
+    font-weight: bold;
+  }  
+  
+  
+  table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+>>>>>>> e47f488c22a281d4d354720de59def3bc02fc72c
   
